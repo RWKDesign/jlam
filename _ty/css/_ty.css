@@ -1,0 +1,482 @@
+
+@import url(http://fonts.googleapis.com/css?family=Amaranth);
+
+html {
+  /*
+  background: #000;
+  background: url("http://new.jeffreylamorte.com/_ty/art/jlam_background_dark_top.png") fixed , url("http://new.jeffreylamorte.com/_ty/art/jlam_background_dark_bottom.png") fixed;
+  background-repeat: repeat-x, repeat;
+  background-position: 0px 0px, 0px 226px;
+	*/
+}
+
+html_OLD_NOT_IN_USE {
+  background: #000;
+  background: url("http://new.jeffreylamorte.com/_ty/art/jlam_background.jpg") no-repeat center center fixed !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+body_NOT-IN-USE {
+  background: url("http://new.jeffreylamorte.com/_ty/art/jlam_background.jpg") no-repeat center center fixed !important;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#main {
+  background-color: transparent !important;
+}
+
+#page-title {
+  display: none !important;
+}
+
+.panel-display {
+  /*background-color: #E1F3A0 !important;*/
+	background-color: #EAEFC9;
+  padding: 12px 6px !important;
+  border-radius: 12px;
+}
+
+.view-galleries, .view-gallery {
+  background-color: #EAEFC9 !important;
+  padding: 12px 6px !important;
+  border-radius: 12px;
+}
+
+.view-galleries tr, .view-gallery tr {
+  background-color: #EAEFC9 !important;
+}
+
+#footer-wrapper {
+  /*margin-top: 24px !important;*/
+	margin-top: 15px !important;
+	border-radius: 12px;
+}
+
+#header {
+  border-width: 0px !important;
+	/*border-bottom-left-radius: 19px;*/
+	border-radius: 0 0 0 24px !important;
+}
+
+
+#page-wrapper, #page, body {
+  /*
+  background-color: transparent !important;
+	*/
+}
+
+#page {
+	background-color: transparent !important;
+}
+
+.node {
+  padding: 12px !important;
+}
+
+.region-header h2 {
+  display: none !important;
+}
+
+.region-submenubar h2 {
+  display: none !important;
+}
+
+#block-menu-menu-sub-menu a {
+  /*font-family: Amaranth, cursive;*/
+  /*color: #003300 !important;*/
+	color: #FFEECC;
+  /*font-size: 16px;*/
+	font-size: 12px;
+}
+
+#block-system-main-menu a {
+  /*font-family: Amaranth, cursive;*/
+  /*color: #3C1C1F !important;*/
+	color: #FFFFFF;
+  /*font-size: 20px;*/
+	font-size: 16px;
+}
+
+#block-system-main-menu ul.menu {
+  text-align: right;
+  position: relative;
+  top: -60px;
+  display: inline-block;
+  width: 660px;
+  float: right;
+}
+
+#block-menu-menu-sub-menu ul.menu {
+  text-align: right;
+  position: relative;
+  top: -70px;
+  display: inline-block;
+  width: 600px;
+  float: right;
+  margin-top: 30px;
+}
+
+ul.menu li {
+  display: inline !important;
+  list-style-image: none !important;
+  list-style-type: none !important;
+	color: #FFFFFF;
+}
+
+#block-menu-menu-sub-menu a.active {
+  color: white !important;
+}
+
+#block-system-main-menu a.active {
+  color: white !important; /* NO LONGER THIS RED: #7F3B42 */
+}
+
+.nivo-caption {
+  font-size: 24px;
+  text-align: center;
+  /*font-family: Amaranth, cursive !important;*/
+}
+
+
+#block-nivo-slider-nivo-slider {
+  height: 300px;
+	margin-top: 4px;
+}
+
+/*
+#slider, .nivo-caption, .slider-wrapper, #slider img {
+	border-bottom-left-radius: 15px !important;
+}
+*/
+
+#submenubar {
+  border-bottom: none !important;
+}
+
+
+/*********The following is for the News content type --- Yevgeny Ananin*********/
+
+.field-name-field-blog-image {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.node .field-name-field-blog-image {
+	float: right !important;
+	margin-left: 10px !important;
+}
+
+
+.node-blog .field-name-body {
+  display: inline;
+}
+
+.pane-news-view-test .views-field-field-blog-image {
+  diplay: inline-block !important;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.pane-news-view-test .views-row {
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 4px #444 solid;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+}
+
+.pane-news-view-test .views-row-1 {
+  border-top: none !important;
+  padding-top: 5px !important;
+}
+
+.pane-news-view-test .views-field-title {
+  font-size: 20px;
+}
+
+
+.pane-news-view-test .views-field-field-blog-date {
+  margin-bottom: 10px;
+}
+
+.views-field-field-blog-video {
+	/*float: left;*/
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+/*********The following is for the Industry node pages, to appear in the Professionals/Industry page - Yevgeny Ananin*********/
+.node-industry .image-thumbnail {
+  float: left;
+  clear: both;
+}
+
+.node-industry .image-medium {
+  float: left;
+  clear: both;
+}
+
+/*********The following is for Industry nodes as they appear on the Professionals/Industry page - Yevgeny Ananin*********/
+.view-industry-view .views-field-field-industry-image {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.view-industry-view .views-field-field-industry-date {
+  margin-bottom: 15px;
+}
+
+.view-industry-view .views-row {
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 4px #444 solid;
+}
+
+.view-industry-view .views-row-1 {
+  border-top: none !important;
+  padding-top: 5px !important;
+}
+
+.view-industry-view .views-field-title {
+  font-size: 20px;
+}
+
+
+
+/*******The following css is for the Testimonial content type*******/
+.field-name-field-testimonial-image {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.node-testimonial .field-name-body {
+  display: inline;
+}
+
+.view-testimonials-view .views-row {
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 4px #444 solid;
+	margin-left: 10px;
+}
+
+.view-testimonials-view .views-row-1 {
+  border-top: none !important;
+  padding-top: 5px !important;
+}
+
+.view-testimonials-view .views-field-field-testimonial-image {
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.view-testimonials-view .views-field-field-testimonial-short-title {
+  font-size: 20px;
+	margin-bottom: 15px;
+	color: #619f3c !important;
+}
+
+.view-testimonials-view .views-field-php {
+	margin-bottom: 15px;
+}
+
+.view-testimonials-view .views-field-field-testimonial-date {
+  margin-bottom: 15px;
+}
+
+
+#block-menu-menu-services {
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+
+#block-menu-menu-services li {
+  /*font-family: Amaranth, cursive;*/
+  font-size: 17px;
+  display: block !important;
+  margin-left: 0px !important;
+}
+
+
+
+
+/********** For the Services View ***************/
+
+.views-field-field-service-display-title {
+	display: inline-block;
+}
+
+.view-services .views-field-php {
+	display: inline-block;
+}
+
+
+
+.views-field-field-service-price .field-content {
+	
+	display: inline-block;
+	text-align: right;
+	
+	padding-left: 5px;
+	padding-bottom: 0px;
+}
+
+.views-field-field-service-price {
+	/*position: relative;*/
+	display: inline-block;
+	float: right;
+	
+}
+
+.views-field-field-service-description {
+	/*margin-bottom: 10px;*/
+}
+
+
+/*
+.view-services .views-row-4 .views-field-field-service-price {
+	display: none;
+}
+
+.view-services .views-row-4 .views-field-field-service-display-title {
+	display: none;
+}
+*/
+
+
+
+.page-locations .content .pane-content h2, .page-products .content .pane-content h2 {
+	background-color: transparent !important;
+}
+
+
+.node-promotion .date-display-single {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.node-promotion .field-name-field-promotion-date {
+	margin-bottom: 20px;
+}
+
+.node-promotion .field-name-field-promotion-image {
+	float: right !important;
+	margin-left: 10px !important;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+
+
+/*** The following is for the Specials page ***/
+
+.page-specials .views-field-field-promotion-image {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.view-promotions .views-row {
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 4px #444 solid;
+}
+
+.view-promotions .views-row-1 {
+  border-top: none !important;
+  padding-top: 5px !important;
+}
+
+.view-promotions .views-field-title {
+	font-size: 20px;
+}
+
+.view-promotions .views-field-field-promotion-date {
+	margin-bottom: 15px;
+}
+
+.page-home #node-9, .page-home #node-9 h2 {
+	border-style: none !important;
+}
+
+.block-webform .node-webform .submitted {
+	display: none !important;
+}
+
+#node-168 h2 {
+	display: none !important;
+}
+
+.block-webform #node-168 {
+	padding: 0px !important;
+	margin-top: 4px;
+	background-color: transparent !important;
+	border-style: none !important;
+}
+
+.block-webform .content {
+	padding: 0px !important;
+}
+
+.block-webform .content .field-name-body {
+	margin-bottom: 10px;
+}
+
+
+/*PAGE PHOTOS-VIDEOS*/
+.page-photos-videos .view-videos .views-row {
+	margin-top: 30px;
+}
+
+.page-photos-videos .spacer,
+.page-photos-videos #spacer
+ {
+	display: none;
+}
+
+.page-photos-videos #footer-wrapper {
+	margin-top: 0px !important;
+}
+
+
+/*Front Page*/
+.page-home #main-wrapper #block-system-main .panel-display,
+.page-home #main-wrapper #block-system-main .panel-display #node-9
+{
+	/*background-color: #222222;#121010*/
+	background-color: #121010;
+}
+
+.page-home #block-nivo-slider-nivo-slider #slider {
+  width: 950px !important;
+  height: 300px !important;
+  margin: 0 auto; 
+}
+
+

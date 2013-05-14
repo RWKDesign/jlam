@@ -1,0 +1,42 @@
+.view-industry-view .image-medium {
+  float: left;
+  clear: both;
+}
+
+.view-industry-view .image-thumbnail {
+  float: left;
+  clear: both;
+}
+
+
+.view-industry-view .views-row {
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  border-top: 4px #444 solid;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+}
+
+.view-industry-view .views-row-1 {
+  border-top: none !important;
+  padding-top: 5px !important;
+}
+
+.view-industry-view .views-field-title {
+  font-size: 20px;
+}
+
+/*
+.view-industry-view .views-label-field-industry-date {
+  display: inline-block;
+}
+
+.view-industry-view .views-field-field-industry-date .field-content {
+  display: inline-block;
+}
+
+.view-industry-view .views-field-field-industry-date {
+  margin-bottom: 15px;
+}
+*/
